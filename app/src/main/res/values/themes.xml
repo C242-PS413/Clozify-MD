@@ -1,0 +1,31 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Base.Theme.Clozify" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Theme Colors -->
+        <item name="backgroundColor">@color/beige_background</item>
+        <item name="surfaceColor">@color/beige_light</item>
+        <item name="cardColor">@color/white</item>
+        <item name="textPrimaryColor">@color/text_black</item>
+        <item name="textSecondaryColor">@color/text_secondary</item>
+
+        <!-- Material Theme Colors -->
+        <item name="colorPrimary">@color/accent_brown</item>
+        <item name="colorPrimaryVariant">@color/accent_brown</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSecondary">@color/accent_sage</item>
+        <item name="colorSecondaryVariant">@color/accent_sage</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <item name="colorSurface">@color/beige_light</item>
+        <item name="colorOnSurface">@color/text_black</item>
+
+        <!-- System Bars -->
+        <item name="android:statusBarColor">@color/beige_background</item>
+        <item name="android:navigationBarColor">@color/beige_background</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:windowLightNavigationBar" tools:targetApi="27">true</item>
+
+        <!-- Window Background -->
+        <item name="android:windowBackground">@color/beige_background</item>
+    </style>
+
+    <style name="Theme.Clozify" parent="Base.Theme.Clozify" />
+</resources>

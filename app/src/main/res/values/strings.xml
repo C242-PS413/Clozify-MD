@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Clozify</string>
+    <string name="title_home">Home</string>
+    <string name="title_favorite">Favorite</string>
+    <string name="title_profile">Profile</string>
+    <string name="favorite_icon">Favorite</string>
+</resources>

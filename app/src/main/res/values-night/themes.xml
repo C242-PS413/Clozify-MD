@@ -1,0 +1,29 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Base.Theme.Clozify" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Theme Colors -->
+        <item name="backgroundColor">@color/dark_background</item>
+        <item name="surfaceColor">@color/dark_surface</item>
+        <item name="cardColor">@color/dark_card</item>
+        <item name="textPrimaryColor">@color/text_white</item>
+        <item name="textSecondaryColor">@color/text_secondary_dark</item>
+
+        <!-- Material Theme Colors -->
+        <item name="colorPrimary">@color/accent_brown</item>
+        <item name="colorPrimaryVariant">@color/accent_brown</item>
+        <item name="colorOnPrimary">@color/text_white</item>
+        <item name="colorSecondary">@color/accent_sage</item>
+        <item name="colorSecondaryVariant">@color/accent_sage</item>
+        <item name="colorOnSecondary">@color/text_white</item>
+        <item name="colorSurface">@color/dark_surface</item>
+        <item name="colorOnSurface">@color/text_white</item>
+
+        <!-- System Bars -->
+        <item name="android:statusBarColor">@color/dark_background</item>
+        <item name="android:navigationBarColor">@color/dark_background</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:windowLightNavigationBar" tools:targetApi="27">false</item>
+
+        <!-- Window Background -->
+        <item name="android:windowBackground">@color/dark_background</item>
+    </style>
+</resources>
